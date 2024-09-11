@@ -2,7 +2,7 @@ import { View } from "react-native";
 import Button from "@/components/atoms/button";
 import Label from "@/components/atoms/label";
 import InputForm from "@/components/molecules/InputForm";
-
+import Name from "@/components/atoms/name"
 export default function Index() {
   return (
     <View
@@ -24,6 +24,10 @@ export default function Index() {
       labelText="hehe"
       placeholderText="This is some placeholder text"
       buttonText="buddon"
+      />
+
+      <Name
+      nameText="Rimando"
       />
     </View>
   );
