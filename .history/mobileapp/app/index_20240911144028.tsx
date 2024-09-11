@@ -1,6 +1,5 @@
 import { View } from "react-native";
 import Madi from "@/components/molecules/madi";
-import Pia from "@/components/molecules/pia"
 
 export default function Index() {
   return (
