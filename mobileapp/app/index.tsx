@@ -1,9 +1,5 @@
 import { View } from "react-native";
-import Button from "@/components/atoms/button";
-import Label from "@/components/atoms/label";
-import InputForm from "@/components/molecules/InputForm";
-import Name from "@/components/atoms/name"
-import BodyText from "@/components/atoms/bodyText";
+import Madi from "@/components/molecules/madi";
 
 export default function Index() {
   return (
@@ -13,9 +9,11 @@ export default function Index() {
         justifyContent: "center",
         alignItems: "center",
         backgroundColor: "beige",
+        flexDirection: "row",
+        gap: 20
       }}
     >
-
+      <Madi/>
     </View>
   );
 }
