@@ -1,4 +1,7 @@
-import { Text, View } from "react-native";
+import { View } from "react-native";
+import Button from "@/components/atoms/button";
+import Label from "@/components/atoms/label";
+import InputForm from "@/components/molecules/InputForm";
 
 export default function Index() {
   return (
@@ -7,11 +10,21 @@ export default function Index() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+        backgroundColor: "beige",
       }}
     >
-      <Text style={{
-        fontSize:50
-      }}>Banana</Text>
+      <Button 
+      color='orange'
+      buttonText="lol"
+      
+      />
+      <Label labelText="I am a label"/>
+
+      <InputForm
+      labelText="hehe"
+      placeholderText="This is some placeholder text"
+      buttonText="buddon"
+      />
     </View>
   );
 }
