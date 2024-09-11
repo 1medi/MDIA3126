@@ -15,26 +15,7 @@ export default function Index() {
         backgroundColor: "beige",
       }}
     >
-      <Button 
-      color='orange'
-      buttonText="lol"
-      
-      />
-      <Label labelText="I am a label"/>
 
-      <InputForm
-      labelText="hehe"
-      placeholderText="This is some placeholder text"
-      buttonText="buddon"
-      />
-
-      <Name
-      nameText="Rimando"
-      />
-
-      <BodyText
-      bodyText="body copy"
-      />
     </View>
   );
 }
