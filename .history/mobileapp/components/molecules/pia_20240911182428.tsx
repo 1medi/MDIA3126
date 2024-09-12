@@ -9,7 +9,7 @@ export default function Madi () {
       alignContent:"center",
     },
     logo: {
-      width: 600,
+      width: 500,
       height: 600,
       alignContent: "center",
     },
